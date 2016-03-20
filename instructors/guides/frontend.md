@@ -1,9 +1,7 @@
 # Frontend Instructor Guide
-### Overview
 
 This guide will provide you with the necessary knowledge & resources required for teaching a **frontend web framework** (React, Angular2, Ember, etc) that integrates with ProductionReady.
 
-# Getting Started
 The process of creating a frontend course is done in three steps:
 
 1. Build the entire application
