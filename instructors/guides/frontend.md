@@ -10,30 +10,27 @@ The process of creating a frontend course is done in three steps:
 
 # Building the application
 
-#### 1. Set up your initial github repo
+### 1. Set up your initial github repo
 The first thing you'll want to do is set up a github repo. Fork this repo, place your code in the `code` folder.
 
-#### 2. Start building your app
+### 2. Start building your app
+For your convenience, we have a live server at X for you to build your application against. Alternatively, you can install one of the completed backend servers and run it locally.
 
+#### Feature list
 
-###### Avoid using unnecessary build tools/transpilers
-By default, avoid using any build tools/transpilers that aren't absolutely necessary. don't go overboard. use bare minimum to get people started, otherwise it can become incredibly confusing. only exception is when it's a focal point of the course itself (i.e. "Build ES6 Angular 1.x apps" would likely require an ES6 transpiler). save your epic build tool optimizations for future posts :)
+The frontend application needs to have the following functionality:
+
+give link to live demo
+
+#### Guidelines
+
+###### Avoid using unnecessary build tools
+By default, avoid using any build tools that aren't absolutely critical for teaching real world usage of the given framework. While build tools are obviously excellent for automating routine tasks, the learners using your course have never experienced what the "routine" tasks are for building applications with your framework (otherwise they wouldn't be taking your course in the first place). Instead, manually perform tasks in the codebase -- you can always release future content that shows them how to automate them :)
+
+That being said, you will likely need to use some sort of build tool to scaffold/run the application (Gulp, Grunt, Webpack, etc) and that's totally fine - just don't overcomplicate things.
+
+###### Use the provided Bootstrap4 HTML/CSS
+bootstrap styles/templates (explain NPM versioning)
 
 ###### TDD is _not_ required
-Considering these courses are largely targeting intermediate developers, we think that TDD implementations should be covered in supplementary courses. As such, if you want to include tests with the codebase you're more than welcome to, but it's not required.
-
-###### Use our courses
-bootstrap styles/templates (explain NPM versioning)
-default profile image
-API spec, live server to test on
-no TDD
-
-
-
-Examples:
-
-React - use Webpack/Babel, but don't implement niceties such as x,y,z
-Angular - 
-
-### Feature list
-give link to live demo
+Considering these courses are largely targeting intermediate developers, we think that TDD implementations should be covered in optional supplementary courses. As such, if you want to include tests with the codebase you're more than welcome to, but it's not required.
