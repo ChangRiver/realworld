@@ -30,7 +30,11 @@ By default, avoid using any build tools that aren't absolutely critical for teac
 That being said, you will likely need to use some sort of build tool to scaffold/run the application (Gulp, Grunt, Webpack, etc) and that's totally fine - just don't overcomplicate things.
 
 ###### Use the provided Bootstrap4 HTML/CSS
-bootstrap styles/templates (explain NPM versioning)
+[Eric](https://twitter.com/ericsimons40) took one for the team and wrote all of the CSS/HTML required for your frontend application. The [conduit-sass Github repo](https://github.com/GoThinkster/conduit-sass) explains how to implement & use the CSS/HTML in your application. Here are the important bits:
+
+- Both Conduit specific styles and Bootstrap4 are included to ensure future updates to Bootstrap4 won't break your course
+- Best practice is to install the package via NPM
+- You'll need to run a SASS task in your build system to generate a browser readable CSS file
 
 ###### TDD is _not_ required
 Considering these courses are largely targeting intermediate developers, we think that TDD implementations should be covered in optional supplementary courses. As such, if you want to include tests with the codebase you're more than welcome to, but it's not required.
