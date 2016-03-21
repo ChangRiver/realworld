@@ -14,11 +14,11 @@ The process of creating a frontend course is done in three steps:
 The first thing you'll want to do is set up a github repo. Fork this repo, place your code in the `code` folder.
 
 ## 2. Start building your app
-For your convenience, we have a live server at X for you to build your application against. Alternatively, you can install one of the completed backend servers and run it locally.
+For your convenience, we have a live API server running at X for you to build your application against. Alternatively, you can install one of the completed backend servers and run it locally.
 
 #### Feature list
 
-Like the old saying goes, a live demo is worth 10e9 words - so we recommend playing with our [live Angular based demo](put-link-here) to get a feel for how the application's functionality.
+Like the old saying goes, a live demo is worth 10e9 words - so we recommend playing with our [live Angular based demo](put-link-here) to get a feel for the application's functionality.
 
 Specifically, the frontend application needs to have the following functionality:
 
