@@ -64,7 +64,8 @@
     "tagList": ["dragons", "training"],
     "createdAt": "2016-02-18T03:22:56.637Z",
     "updatedAt": "2016-02-18T03:48:35.824Z"
-  }]
+  }],
+  "articlesCount": 2
 }
 ```
 
@@ -140,19 +141,17 @@ No authentication required, returns a User object
 
 
 
-### Get Profile
+### Get Current User
 
-`GET /api/profiles/:username`
+`GET /api/user`
 
-Authentication optional, returns a profile object
+Authentication required, returns a User object for the current user
 
 
 
-### Update profile
+### Update User
 
 `PUT /api/user`
-
-Authentication required
 
 Request body:
 ```
@@ -164,6 +163,16 @@ Request body:
   }
 }
 ```
+
+Authentication required, returns a User object
+
+
+
+### Get Profile
+
+`GET /api/profiles/:username`
+
+Authentication optional, returns a profile object
 
 
 
@@ -194,17 +203,32 @@ Use to get all articles globally, provide tag or author query param to filter
 Query Parameters:
 
 Filter by tag:
+
 `?tag=AngularJS`
 
 Filter by author:
+
 `?author=jake`
 
 Favorited by user:
+
 `?favorited=jake`
+
+Limit number of articles (default is 20):
+
+`?limit=20`
+
+Offset/skip number of articles:
+
+`?offset=0`
+
+
 
 ### Feed articles
 
 `GET /api/articles/feed`
+
+Can also take `limit` and `offset` query parameters like [List Articles](https://github.com/GoThinkster/productionready/blob/master/API.md#list-articles)
 
 Authentication required, will return array of articles more recent first created by followed users
 
@@ -266,6 +290,9 @@ Authentication required, returns the created comment object
 `GET /api/articles/:slug/comments`
 
 Authentication optional, returns multiple comments
+
+
+
 
 ### Favoriting an article
 
