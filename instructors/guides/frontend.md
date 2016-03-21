@@ -18,9 +18,11 @@ For your convenience, we have a live API server running at X for you to build yo
 
 #### Required Functionality
 
-Like the old saying goes, a live demo is worth 10e9 words - so we recommend playing with our [live Angular based demo](put-link-here) to get a feel for the application's functionality.
+Like the old saying goes, a live demo is worth 10e9 words - so we recommend playing with our [live Angular based demo](put-link-here) to get a feel for the application's functionality. Use the Angular application as your north star while building out functionality; i.e. if it works a certain way in the Angular app, it should work that way in your app as well. The [conduit-angular repo](https://github.com/GoThinkster/conduit-angularjs-final) will be a good reference guide should you have any questions about the feature implementations.
 
-Your frontend application needs to include the ability to:
+For your convenience, we've also included the key specs of the frontend app's functionality below.
+
+General functionality requirements:
 
 - Authenticate users via JWT (login/signup pages + logout button on settings page)
 - CRU users (sign up & settings page - no deleting required)
@@ -45,7 +47,7 @@ The general page breakdown looks like this:
     - Render markdown from server client side
     - Comments section at bottom of page
     - Delete comment button (only shown to comment's author)
-- Profile page (URL: /#/@username )
+- Profile page (URL: /#/@username, /#/@username/favorites )
     - Show basic user info
     - List of articles populated from author's created articles or author's favorited articles
 
