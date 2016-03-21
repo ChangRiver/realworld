@@ -110,7 +110,7 @@
 
 `POST /api/users/login`
 
-Request body:
+Example request body:
 ```
 {
   "user":{
@@ -119,7 +119,7 @@ Request body:
   }
 }
 ```
-No authentication required, returns a User object
+No authentication required, returns a [User](#users-for-authentication)
 
 
 
@@ -127,7 +127,7 @@ No authentication required, returns a User object
 
 `POST /api/users`
 
-Request body:
+Example request body:
 ```
 {
   "user":{
@@ -137,7 +137,7 @@ Request body:
 }
 ```
 
-No authentication required, returns a User object
+No authentication required, returns a [User](#users-for-authentication)
 
 
 
@@ -145,7 +145,7 @@ No authentication required, returns a User object
 
 `GET /api/user`
 
-Authentication required, returns a User object for the current user
+Authentication required, returns a [User](#users-for-authentication) that's the current user
 
 
 
@@ -153,7 +153,7 @@ Authentication required, returns a User object for the current user
 
 `PUT /api/user`
 
-Request body:
+Example request body:
 ```
 {
   "user":{
@@ -164,7 +164,7 @@ Request body:
 }
 ```
 
-Authentication required, returns a User object
+Authentication required, returns the [User](#users-for-authentication)
 
 
 
@@ -172,7 +172,7 @@ Authentication required, returns a User object
 
 `GET /api/profiles/:username`
 
-Authentication optional, returns a profile object
+Authentication optional, returns a [Profile](#profile)
 
 
 
@@ -180,7 +180,7 @@ Authentication optional, returns a profile object
 
 `POST /api/profiles/:username/follow`
 
-Authentication required, returns profile object
+Authentication required, returns a [Profile](#profile)
 
 
 
@@ -188,7 +188,7 @@ Authentication required, returns profile object
 
 `DELETE /api/profiles/:username/follow`
 
-Authentication required, returns profile object
+Authentication required, returns a [Profile](#profile)
 
 
 
@@ -196,9 +196,7 @@ Authentication required, returns profile object
 
 `GET /api/articles`
 
-Authentication optional, will return array of articles most recent first
-
-Use to get all articles globally, provide tag or author query param to filter
+Returns most recent articles globally be default, provide `tag`, `author` or `favorited` query parameter to filter results
 
 Query Parameters:
 
@@ -222,21 +220,25 @@ Offset/skip number of articles:
 
 `?offset=0`
 
+Authentication optional, will return [multiple articles](#multiple-article), ordered by most recent first
+
 
 
 ### Feed articles
 
 `GET /api/articles/feed`
 
-Can also take `limit` and `offset` query parameters like [List Articles](https://github.com/GoThinkster/productionready/blob/master/API.md#list-articles)
+Can also take `limit` and `offset` query parameters like [List Articles](#list-articles)
 
-Authentication required, will return array of articles more recent first created by followed users
+Authentication required, will return [multiple articles](#multiple-article) created by followed users, ordered by most recent first.
 
 
 
 ### Create Article
 
 `POST /api/articles`
+
+Example request body:
 
 ```
 {
@@ -249,13 +251,15 @@ Authentication required, will return array of articles more recent first created
 }
 ```
 
-Authentication required, will return article object
+Authentication required, will return an [Article](#single-article)
 
 
 
 ### Update article
 
 `PUT /api/articles/:slug`
+
+Example request body:
 
 ```
 {
@@ -265,13 +269,15 @@ Authentication required, will return article object
 }
 ```
 
-Authentication required, will return article object
+Authentication required, returns the updated [Article](#single-article)
 
 
 
 ### Adding comments to an article
 
 `POST /api/articles/:slug/comments`
+
+Example request body:
 
 ```
 {
@@ -281,7 +287,7 @@ Authentication required, will return article object
 }
 ```
 
-Authentication required, returns the created comment object
+Authentication required, returns the created [Comment](#single-comment)
 
 
 
@@ -289,7 +295,7 @@ Authentication required, returns the created comment object
 
 `GET /api/articles/:slug/comments`
 
-Authentication optional, returns multiple comments
+Authentication optional, returns [multiple comments](#multiple-comments)
 
 
 
@@ -298,7 +304,7 @@ Authentication optional, returns multiple comments
 
 `POST /api/articles/:slug/favorite`
 
-Authentication required
+Authentication required, returns the [Article](#single-article)
 
 
 
@@ -306,4 +312,4 @@ Authentication required
 
 `DELETE /api/articles/:slug/favorite`
 
-Authentication required
+Authentication required, returns the [Article](#single-article)
