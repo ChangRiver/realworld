@@ -220,7 +220,7 @@ Offset/skip number of articles:
 
 `?offset=0`
 
-Authentication optional, will return [multiple articles](#multiple-article), ordered by most recent first
+Authentication optional, will return [multiple articles](#multiple-articles), ordered by most recent first
 
 
 
@@ -230,7 +230,7 @@ Authentication optional, will return [multiple articles](#multiple-article), ord
 
 Can also take `limit` and `offset` query parameters like [List Articles](#list-articles)
 
-Authentication required, will return [multiple articles](#multiple-article) created by followed users, ordered by most recent first.
+Authentication required, will return [multiple articles](#multiple-articles) created by followed users, ordered by most recent first.
 
 
 
