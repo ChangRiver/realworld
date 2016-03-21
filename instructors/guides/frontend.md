@@ -16,11 +16,38 @@ The first thing you'll want to do is set up a github repo. We recommend creating
 ## 2. Start building your app
 For your convenience, we have a live API server running at X for you to build your application against. Alternatively, you can install one of the completed backend servers and run it locally.
 
-#### Feature list
+#### Required Functionality
 
 Like the old saying goes, a live demo is worth 10e9 words - so we recommend playing with our [live Angular based demo](put-link-here) to get a feel for the application's functionality.
 
-Specifically, the frontend application needs to have the following functionality:
+Your frontend application needs to include the ability to:
+
+- Authenticate users via JWT (login/signup pages + logout button on settings page)
+- CRU users (sign up & settings page - no deleting required)
+- CRUD Articles
+- CRD Comments on articles (no updating required)
+- GET and display paginated lists of articles
+- Favorite articles
+- Follow other users
+
+The general page breakdown looks like this:
+
+- Home page (URL: /#/ )
+    - List of tags
+    - List of articles pulled from either Feed, Global, or by Tag
+    - Pagination for list of articles
+- Sign in/Sign up pages (URL: /#/login, /#/register )
+    - Use JWT (store the token in localStorage)
+- Settings page (URL: /#/settings )
+- Editor page to create/edit articles (URL: /#/editor, /#/editor/article-slug-here )
+- Article page (URL: /#/article/article-slug-here )
+    - Delete article button (only shown to article's author)
+    - Render markdown from server client side
+    - Comments section at bottom of page
+    - Delete comment button (only shown to comment's author)
+- Profile page (URL: /#/@username )
+    - Show basic user info
+    - List of articles populated from author's created articles or author's favorited articles
 
 
 
