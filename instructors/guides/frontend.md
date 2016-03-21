@@ -25,7 +25,7 @@ give link to live demo
 #### Guidelines
 
 ###### Avoid using unnecessary build tools
-By default, avoid using any build tools that aren't absolutely critical for teaching real world usage of the given framework. While build tools are obviously excellent for automating routine tasks, the learners using your course have never experienced what the "routine" tasks are for building applications with your framework (otherwise they wouldn't be taking your course in the first place). Instead, manually perform tasks in the codebase -- you can always release future content that shows them how to automate them :)
+By default, avoid using any build tools that aren't absolutely critical for teaching real world usage of the given framework. While build tools are obviously excellent for automating routine tasks, the learners using your course have never experienced what the "routine" tasks are for building applications with your framework (otherwise they wouldn't be taking your course in the first place). Instead, manually perform tasks in the codebase -- you can always release future content that shows how to automate them :)
 
 That being said, you will likely need to use some sort of build tool to scaffold/run the application (Gulp, Grunt, Webpack, etc) and that's totally fine - just don't overcomplicate things.
 
