@@ -11,7 +11,7 @@ The process of creating a frontend course is done in three steps:
 # Building the application
 
 ## 1. Set up your initial github repo
-The first thing you'll want to do is set up a github repo. Fork this repo, place your code in the `code` folder.
+The first thing you'll want to do is set up a github repo. We recommend creating a root level `src/` folder where your codebase will live. You can see a good example of this in the [conduit-angular repo](https://github.com/GoThinkster/conduit-angularjs-final).
 
 ## 2. Start building your app
 For your convenience, we have a live API server running at X for you to build your application against. Alternatively, you can install one of the completed backend servers and run it locally.
