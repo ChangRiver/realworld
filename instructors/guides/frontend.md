@@ -10,10 +10,10 @@ The process of creating a frontend course is done in three steps:
 
 # Building the application
 
-### 1. Set up your initial github repo
+## 1. Set up your initial github repo
 The first thing you'll want to do is set up a github repo. Fork this repo, place your code in the `code` folder.
 
-### 2. Start building your app
+## 2. Start building your app
 For your convenience, we have a live server at X for you to build your application against. Alternatively, you can install one of the completed backend servers and run it locally.
 
 #### Feature list
