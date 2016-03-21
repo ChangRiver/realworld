@@ -22,7 +22,7 @@ Like the old saying goes, a live demo is worth 10e9 words - so we recommend play
 
 For your convenience, we've also included the key specs of the frontend app's functionality below.
 
-General functionality requirements:
+**General functionality requirements:**
 
 - Authenticate users via JWT (login/signup pages + logout button on settings page)
 - CRU users (sign up & settings page - no deleting required)
@@ -32,7 +32,7 @@ General functionality requirements:
 - Favorite articles
 - Follow other users
 
-The general page breakdown looks like this:
+**The general page breakdown looks like this:**
 
 - Home page (URL: /#/ )
     - List of tags
