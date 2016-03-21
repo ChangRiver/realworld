@@ -72,3 +72,10 @@ The backend servers run on port 3000 in development, so make sure you override t
 
 ###### TDD is _not_ required
 Considering these courses are largely targeting intermediate developers, we think that TDD implementations should be covered in optional supplementary courses. As such, if you want to include tests with the codebase you're more than welcome to, but it's not required.
+
+
+# Breaking up the completed codebase into step-by-step checkpoints
+Coming soon
+
+# Writing the course
+Coming soon
