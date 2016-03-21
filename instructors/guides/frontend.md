@@ -18,7 +18,7 @@ For your convenience, we have a live API server running at X for you to build yo
 
 #### Required Functionality
 
-Like the old saying goes, a live demo is worth 10e9 words - so we recommend playing with our [live Angular based demo](put-link-here) to get a feel for the application's functionality. Use the Angular application as your north star while building out functionality; i.e. if it works a certain way in the Angular app, it should work that way in your app as well. The [conduit-angular repo](https://github.com/GoThinkster/conduit-angularjs-final) will be a good reference guide should you have any questions about the feature implementations.
+Like the old saying goes, a live demo is worth 10e9 words - so we recommend playing with our [live Angular based demo](put-link-here) to get a feel for the application's functionality. Use the Angular application as your north star while building out functionality; i.e. if it works a certain way in the Angular app, it should work that way in your app as well. The [conduit-angular repo](https://github.com/GoThinkster/conduit-angularjs-final) is a good reference guide should you have any questions about the feature implementations.
 
 For your convenience, we've also included the key specs of the frontend app's functionality below.
 
