@@ -53,7 +53,14 @@ For your convenience, we've also included the key specs of the frontend app's fu
 
 
 
-#### Important guidelines
+#### Guidelines
+
+###### Use the provided Bootstrap4 HTML/CSS
+[Eric](https://twitter.com/ericsimons40) took one for the team and wrote all of the CSS/HTML required for your frontend application - the [conduit-sass Github repo](https://github.com/GoThinkster/conduit-sass) explains how to implement & use it in your application. Here are the important bits:
+
+- Both Conduit specific styles and Bootstrap4 are included to ensure future updates to Bootstrap4 won't break your course
+- Best practice is to install the package via NPM
+- You'll need to run a SASS task in your build system to generate a browser readable CSS file
 
 ###### Avoid using unnecessary build tools
 By default, avoid using any build tools that aren't absolutely critical for teaching real world usage of the given framework. While build tools are obviously excellent for automating routine tasks, the learners using your course have never experienced what the "routine" tasks are for building applications with your framework (otherwise they wouldn't be taking your course in the first place). Instead, manually perform tasks in the codebase -- you can always release future content that shows how to automate them :)
@@ -62,13 +69,6 @@ That being said, you will likely need to use some sort of build tool to scaffold
 
 ###### In development, the app _must_ run on localhost:4000
 The backend servers run on port 3000 in development, so make sure you override the relevant config option for port number to equal 4000 in your frontend app's build tool.
-
-###### Use the provided Bootstrap4 HTML/CSS
-[Eric](https://twitter.com/ericsimons40) took one for the team and wrote all of the CSS/HTML required for your frontend application - the [conduit-sass Github repo](https://github.com/GoThinkster/conduit-sass) explains how to implement & use it in your application. Here are the important bits:
-
-- Both Conduit specific styles and Bootstrap4 are included to ensure future updates to Bootstrap4 won't break your course
-- Best practice is to install the package via NPM
-- You'll need to run a SASS task in your build system to generate a browser readable CSS file
 
 ###### TDD is _not_ required
 Considering these courses are largely targeting intermediate developers, we think that TDD implementations should be covered in optional supplementary courses. As such, if you want to include tests with the codebase you're more than welcome to, but it's not required.
