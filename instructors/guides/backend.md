@@ -66,8 +66,9 @@ when communicating with the backend, and gives them the ability to hot-swap
 backends without worrying about what case the parameters should be.
 
 The backend must run on port 3000, and should be as RESTful as possible. All
-routes should begin with `/api`. We provide a postman file for testing the
-endpoints.
+routes should begin with `/api`. We provide a [postman file](https://raw.githubusercontent.com/GoThinkster/productionready/master/Conduit.json.postman_collection)
+for testing the endpoints. The Login request in postman should automatically
+set the JWT token environment variable.
 
 The backend determines which user is logged in my checking the `Authorization`
 header of the request. which should contain a JWT token. The header is in the
