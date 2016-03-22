@@ -109,6 +109,29 @@
 }
 ```
 
+### List of Tags
+
+```
+{
+  "tags": [
+    "reactjs",
+    "angularjs"
+  ]
+}
+```
+
+### Errors
+
+```
+{
+  "errors":{
+    "body": [
+      "can't be empty"
+    ]
+  }
+}
+```
+
 
 ## Endpoints:
 
@@ -125,8 +148,10 @@ Example request body:
   }
 }
 ```
+
 No authentication required, returns a [User](#users-for-authentication)
 
+Required fields: `email`, `password`
 
 
 ### Registration:
@@ -137,6 +162,7 @@ Example request body:
 ```
 {
   "user":{
+    "username": "Jacob"
     "email": "jake@jake.jake",
     "password": "jakejake"
   }
@@ -144,6 +170,8 @@ Example request body:
 ```
 
 No authentication required, returns a [User](#users-for-authentication)
+
+Required fields: `email`, `username`, `password`
 
 
 
@@ -173,6 +201,9 @@ Example request body:
 Authentication required, returns the [User](#users-for-authentication)
 
 
+Accepted fields: `email`, `username`, `password`, `image`, `bio`
+
+
 
 ### Get Profile
 
@@ -188,6 +219,8 @@ Authentication optional, returns a [Profile](#profile)
 
 Authentication required, returns a [Profile](#profile)
 
+No additional parameters required
+
 
 
 ### Unfollow user
@@ -195,6 +228,8 @@ Authentication required, returns a [Profile](#profile)
 `DELETE /api/profiles/:username/follow`
 
 Authentication required, returns a [Profile](#profile)
+
+No additional parameters required
 
 
 
@@ -259,6 +294,10 @@ Example request body:
 
 Authentication required, will return an [Article](#single-article)
 
+Required fields: `title`, `description`, `body`
+
+Optional fields: `tagList` as an array of Strings
+
 
 
 ### Update article
@@ -276,6 +315,10 @@ Example request body:
 ```
 
 Authentication required, returns the updated [Article](#single-article)
+
+Optional fields: `title`, `description`, `body`
+
+The `slug` also gets updated when the `title` is changed
 
 
 
@@ -295,6 +338,8 @@ Example request body:
 
 Authentication required, returns the created [Comment](#single-comment)
 
+Required fields: `body`
+
 
 
 ### Getting comments to an article
@@ -305,12 +350,21 @@ Authentication optional, returns [multiple comments](#multiple-comments)
 
 
 
+### Deleting a comment
+
+`DELETE /api/articles/:slug/comments/:id`
+
+Authentication required
+
+
 
 ### Favoriting an article
 
 `POST /api/articles/:slug/favorite`
 
 Authentication required, returns the [Article](#single-article)
+
+No additional parameters required
 
 
 
@@ -319,3 +373,13 @@ Authentication required, returns the [Article](#single-article)
 `DELETE /api/articles/:slug/favorite`
 
 Authentication required, returns the [Article](#single-article)
+
+No additional parameters required
+
+
+
+### Get tags
+
+`GET /api/tags`
+
+No authentication required, returns a [List of Tags](#list-of-tags)
