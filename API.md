@@ -43,7 +43,13 @@
     "createdAt": "2016-02-18T03:22:56.637Z",
     "updatedAt": "2016-02-18T03:48:35.824Z",
     "favorited": false,
-    "favoritesCount": 0
+    "favoritesCount": 0,
+    "author": {
+      "username": "jake",
+      "bio": "I work at statefarm",
+      "image": "https://i.stack.imgur.com/xHWG8.jpg",
+      "following": false
+    }
   }
 }
 ```
@@ -60,7 +66,13 @@
     "createdAt": "2016-02-18T03:22:56.637Z",
     "updatedAt": "2016-02-18T03:48:35.824Z",
     "favorited": false,
-    "favoritesCount": 0
+    "favoritesCount": 0,
+    "author": {
+      "username": "jake",
+      "bio": "I work at statefarm",
+      "image": "https://i.stack.imgur.com/xHWG8.jpg",
+      "following": false
+    }
   }, {
     "description": "So toothless",
     "slug": "how-to-train-your-dragon-2",
@@ -69,7 +81,13 @@
     "createdAt": "2016-02-18T03:22:56.637Z",
     "updatedAt": "2016-02-18T03:48:35.824Z",
     "favorited": false,
-    "favoritesCount": 0
+    "favoritesCount": 0,
+    "author": {
+      "username": "jake",
+      "bio": "I work at statefarm",
+      "image": "https://i.stack.imgur.com/xHWG8.jpg",
+      "following": false
+    }
   }],
   "articlesCount": 2
 }
