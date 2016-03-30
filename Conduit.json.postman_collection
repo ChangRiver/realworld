@@ -16,6 +16,7 @@
 				"ad8283ec-5e56-d13f-dd06-4a203c257318",
 				"f6814f2d-e254-39e5-e7d7-6d22f2c4e63e",
 				"2ba11dfd-5720-d800-7f2a-210fba3cce12",
+				"366e8184-a4f9-93d4-7ec0-b6ff03ca6a0a",
 				"0f40539d-8876-ec19-257b-08fbbcfc905c",
 				"d47bacb4-b2fa-ca21-916b-fb2c0e85b43b",
 				"4009aed3-457f-2374-355b-38daad2cc95a"
@@ -30,7 +31,8 @@
 			"order": [
 				"2179cb3c-6834-e4a6-7fff-a3a74d5d3e92",
 				"8e7ee80a-71e9-9322-b257-d97398112d1c",
-				"3c26c580-64be-2b2c-df03-85fdc93e08b3"
+				"3c26c580-64be-2b2c-df03-85fdc93e08b3",
+				"c4aff5aa-f523-f904-20bf-c7c69e7f2b88"
 			],
 			"owner": 0
 		},
@@ -40,7 +42,8 @@
 			"description": "",
 			"order": [
 				"c763550f-5148-42bb-5be8-cc10b9c4f98e",
-				"bb793782-df06-4242-38e9-c85d2739f06b"
+				"bb793782-df06-4242-38e9-c85d2739f06b",
+				"1a362d25-ce26-ec32-364b-06bf40b0fd2c"
 			],
 			"owner": 0
 		},
@@ -93,6 +96,25 @@
 			"rawModeData": "{\"article\":{\"body\":\"With two hands\"}}"
 		},
 		{
+			"id": "1a362d25-ce26-ec32-364b-06bf40b0fd2c",
+			"headers": "Content-Type: application/json\nAuthorization: Token {{token}}\n",
+			"url": "http://localhost:3000/api/articles/how-to-train-your-dragon/comments/1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459311828712,
+			"name": "Delete Comment for Article",
+			"description": "",
+			"collectionId": "ee74ff6e-dc74-581d-afea-f3970e15ead3",
+			"responses": []
+		},
+		{
 			"id": "2179cb3c-6834-e4a6-7fff-a3a74d5d3e92",
 			"headers": "Content-Type: application/json\n",
 			"url": "http://localhost:3000/api/users/login",
@@ -102,10 +124,10 @@
 			"data": [],
 			"dataMode": "raw",
 			"version": 2,
-			"tests": "var jsonData = JSON.parse(responseBody);\n\nif(jsonData.user.token){\n  postman.setEnvironmentVariable(\"token\", jsonData.user.token);\n}\n",
+			"tests": "var jsonData = JSON.parse(responseBody);\n\nif(jsonData.user && jsonData.user.token){\n  postman.setEnvironmentVariable(\"token\", jsonData.user.token);\n}\n",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1458099294394,
+			"time": 1458780267952,
 			"name": "Login",
 			"description": "",
 			"collectionId": "ee74ff6e-dc74-581d-afea-f3970e15ead3",
@@ -169,9 +191,28 @@
 			"responses": []
 		},
 		{
+			"id": "366e8184-a4f9-93d4-7ec0-b6ff03ca6a0a",
+			"headers": "Content-Type: application/json\nAuthorization: Token {{token}}\n",
+			"url": "http://localhost:3000/api/articles/how-to-train-your-dragon",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459294462970,
+			"name": "Delete Article",
+			"description": "",
+			"collectionId": "ee74ff6e-dc74-581d-afea-f3970e15ead3",
+			"responses": []
+		},
+		{
 			"id": "3877704e-8dda-c8fa-78dc-f900ff401460",
 			"headers": "Content-Type: application/json\n",
-			"url": "http://localhost:3000/api/profiles/jack",
+			"url": "http://localhost:3000/api/profiles/johnjacob",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -181,7 +222,7 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1458079359699,
+			"time": 1459287011949,
 			"name": "Profile",
 			"description": "",
 			"collectionId": "ee74ff6e-dc74-581d-afea-f3970e15ead3",
@@ -189,7 +230,7 @@
 		},
 		{
 			"id": "3c26c580-64be-2b2c-df03-85fdc93e08b3",
-			"headers": "Content-Type: application/json\nAuthorization: Token {{Token}}\n",
+			"headers": "Content-Type: application/json\nAuthorization: Token {{token}}\n",
 			"url": "http://localhost:3000/api/user",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -200,7 +241,7 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1458528358001,
+			"time": 1458779508490,
 			"name": "Current User",
 			"description": "",
 			"collectionId": "ee74ff6e-dc74-581d-afea-f3970e15ead3",
@@ -318,10 +359,10 @@
 			"data": [],
 			"dataMode": "raw",
 			"version": 2,
-			"tests": "",
+			"tests": "var jsonData = JSON.parse(responseBody);\n\nif(jsonData.user && jsonData.user.token){\n  postman.setEnvironmentVariable(\"token\", jsonData.user.token);\n}\n",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1458073423235,
+			"time": 1458780280292,
 			"name": "Register",
 			"description": "",
 			"collectionId": "ee74ff6e-dc74-581d-afea-f3970e15ead3",
@@ -387,6 +428,26 @@
 			"helperAttributes": {},
 			"folder": "e756e1b5-5634-eb9e-37ff-6196e5136099",
 			"rawModeData": "{\"comment\":{\"body\":\"Thank you so much!\"}}"
+		},
+		{
+			"id": "c4aff5aa-f523-f904-20bf-c7c69e7f2b88",
+			"headers": "Content-Type: application/json\nAuthorization: Token {{token}}\n",
+			"url": "http://localhost:3000/api/user",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1458779550405,
+			"name": "Update User",
+			"description": "",
+			"collectionId": "ee74ff6e-dc74-581d-afea-f3970e15ead3",
+			"responses": [],
+			"rawModeData": "{\"user\":{\"email\":\"my@other.email\"}}"
 		},
 		{
 			"id": "c763550f-5148-42bb-5be8-cc10b9c4f98e",
