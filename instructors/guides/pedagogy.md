@@ -10,13 +10,13 @@ The example courses are the Angular and Rails courses for frontend and backend, 
 Any time you're having the user do something (whether reading a blog post or modifying a file in the codebase), have the action appear inside a checkbox to ensure they actually do it. The markdown syntax for using checkboxes is as follows:
 
 ```markdown
-{x: checkbox-name-here}
+{x: example checkbox name}
 The markdown placed right after the checkbox (aka the text you're currently reading) will show up inside of the checkbox.
 
 This text, however, will not show up inside the checkbox because there's a space above it.
 ```
 
-Only use paragraphs inside of checkboxes - it might break if you use a heading, image, etc. We'll probably update this soon, but for now, just use paragraphs (which can contain links, bold, italics, etc).
+The checkbox name needs tp be a unique string that ideally describes the action the user needs to take. Checkbox names _can_ include spaces. Also, only use paragraphs inside of checkboxes - it might break if you use a heading, image, etc. We'll probably update this soon, but for now, just use paragraphs (which can contain links, bold, italics, etc).
 
 #### Break H1 chapters into as many relevant subheadings as possible (H2,H3,H4,H5)
 We need to do this ourselves for the example courses, but basically the idea is that any specific explanations/tasks should be intelligently grouped to ensure we don't have "run-on" courses. This will also ensure that the learner knows exactly what they're learning/doing at any given time.
