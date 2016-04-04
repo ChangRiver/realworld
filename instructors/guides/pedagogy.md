@@ -3,8 +3,8 @@ This guide will provide you with the necessary information to begin the actual w
 
 ## Basic guidelines
 
-#### Follow the same chapter layout as the example courses
-The example courses are the Angular and Rails courses for frontend and backend, respectively. The general goal is to make it easy for the learners to compare/contrast frameworks, and having a standard learning path through all of them will help with this. The actual contents of each chapter are fair game to change, although any symmetries you can provide to the example courses (even if you just use the same subheading titles) are ideal.
+#### Follow the same chapter layout as the example courses (H1's only)
+The example courses are the Angular and Rails courses for frontend and backend, respectively. The general goal is to make it easy for the learners to compare/contrast frameworks, and having a standard learning path through all of them will help with this. The actual contents of each chapter (including subheadings like h2,h3, etc) are fair game to change, although any symmetries you can provide to the example courses (even if you just use the same subheading titles) are ideal.
 
 #### Use checkboxes for tasks
 Any time you're having the user do something (whether reading a blog post or modifying a file in the codebase), have the action appear inside a checkbox to ensure they actually do it. The markdown syntax for using checkboxes is as follows:
