@@ -14,7 +14,7 @@ The process of creating a frontend course is done in three steps:
 The first thing you'll want to do is set up a github repo. We recommend creating a root level `src/` folder where your codebase will live. You can see a good example of this in the [conduit-angular repo](https://github.com/GoThinkster/conduit-angularjs-final).
 
 ## 2. Start building your app
-For your convenience, we have a live API server running at https://conduit.productionready.io/api for you to build your application against. Alternatively, you can install one of the completed backend servers and run it locally.
+For your convenience, we have a live API server running at https://conduit.productionready.io/api for you to build your application against. You can view [the API spec here](https://github.com/GoThinkster/productionready/blob/master/API.md) which contains all routes & responses for the server. Alternatively, you can install one of the completed backend servers and run it locally.
 
 #### Required Functionality
 
