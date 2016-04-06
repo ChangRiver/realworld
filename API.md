@@ -292,6 +292,11 @@ Can also take `limit` and `offset` query parameters like [List Articles](#list-a
 Authentication required, will return [multiple articles](#multiple-articles) created by followed users, ordered by most recent first.
 
 
+### Retrieve Article
+
+`GET /api/articles/:slug`
+
+No authentication required, will return [single article](#single-article)
 
 ### Create Article
 
