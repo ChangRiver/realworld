@@ -98,6 +98,7 @@
 ```
 {
   "comment": {
+    "id": 1,
     "body": "It takes a Jacobian",
     "createdAt": "2016-02-18T03:22:56.637Z",
     "author": {
@@ -115,6 +116,7 @@
 ```
 {
   "comments": [{
+    "id": 1,
     "body": "It takes a Jacobian",
     "createdAt": "2016-02-18T03:22:56.637Z",
     "author": {
