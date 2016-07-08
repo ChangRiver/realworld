@@ -1,2 +1,2 @@
-# ![ProductionReady](media/logo.png)
+# ![ProductionReady](media/logo_lg.png)
 
