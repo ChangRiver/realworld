@@ -1,1 +1,2 @@
-# ProductionReady
+# ![ProductionReady](media/logo.png)
+
