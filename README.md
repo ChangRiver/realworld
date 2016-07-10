@@ -14,6 +14,11 @@ To solve this problem, we created a series of production ready frontend & backen
 
 *Each tutorial can be taken separately from one another. Or you can combine any frontend, backend and deployment tutorial to create a production fullstack app. It's up to you!*
 
+## How this works
+
+same api
+same bootstrap design
+
 ## Running stacks locally
 
 ## Contribute
