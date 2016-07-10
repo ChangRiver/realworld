@@ -1,6 +1,6 @@
 # ![ProductionReady](media/logo_lg.png)
 
-> Learn how to build fullstack apps with React, Angular, Node, Rails, Django, and more
+> Learn how to build fullstack apps with React / Redux, Angular, Node, Rails, Django, and more
 
 ### [Website](http://)&nbsp;&nbsp;&nbsp;&nbsp;[Course](http://)&nbsp;&nbsp;&nbsp;&nbsp;[Mailing list](http://)
 
