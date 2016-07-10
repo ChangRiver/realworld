@@ -23,4 +23,6 @@ same bootstrap design
 
 ## Who made this?
 
+Shoutout to todomvc / addy
+
 ## Getting involved
