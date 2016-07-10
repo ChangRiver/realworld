@@ -23,4 +23,4 @@ same bootstrap design
 
 ## Who made this?
 
-## Contribute
+## Getting involved
