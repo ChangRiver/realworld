@@ -10,7 +10,7 @@ Most tutorials only cover trivial examples like "todo" apps and rarely show real
 
 To solve this problem, we created a series of production ready frontend & backend tutorials (with accompanying codebases) that can be mixed & matched. Every tutorial teaches you how to build Conduit [(demo)](https://demo.productionready.io), a fully featured social blogging platform, from scratch. You'll learn best practices & expert protips for your stack as well as how to deploy it to production environments on AWS, Heroku, and more.
 
-**[View all supported stacks on our website](http://)**
+#### [View supported stacks on our website](http://) or [start learning from the main course](http://)!
 
 Each tutorial can be taken separately from one another. Or you can combine any frontend, backend and deployment tutorial to create a production fullstack app. It's up to you!
 
