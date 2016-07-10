@@ -14,7 +14,7 @@ To solve this problem, we created a series of production ready frontend & backen
 
 ## How this works
 
-All tutorials built against the same API spec and share the same exact bootstrap 4 templates.
+Every tutorial is built against the same API spec and every frontend shares the same exact Bootstrap 4 templates.
 
 The source code for all stacks is available in this repo in the stacks folder. The text of the tutorials are available for free on Thinkster.
 
