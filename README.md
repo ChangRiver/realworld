@@ -34,5 +34,8 @@ Shoutout to todomvc / addy
 
 
 ## License
-- All code, unless otherwise noted, is licensed under MIT
-- We're planning on releasing the tutorial texts under a CC license soon
+All code, unless otherwise noted, is licensed under MIT.
+
+We're planning on releasing the tutorial texts under a CC license soon.
+
+&copy; Thinkster
