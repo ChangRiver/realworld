@@ -19,13 +19,12 @@ To solve this problem, we created a series of production ready frontend & backen
 - The [text of the tutorials](http://) are available to use **for free** on [Thinkster](http://)
 - Screencasts & other supplementary resources are available and support the ongoing development of ProductionReady, so please consider investing in [a Pro subscription](http://)!
 
-## Hosted API
-We have a hosted version of the API that is publicly available and doesn't require an API key to use. It's **perfect for OSS demos**. [Learn more &rarr;](http://)
+## Running the stacks locally
 
+The source code for all stacks is available in this repo in the stacks folder. Simply `git pull --with-submodules` and then follow the instructions in each stack's readme.
 
-## Running stacks locally
-
-The source code for all stacks is available in this repo in the stacks folder.
+## Using our publicly hosted API
+We have a hosted version of the API that doesn't require an API key to use. It's **perfect for OSS demos**. [Learn more &rarr;](http://)
 
 ## Who made this?
 
