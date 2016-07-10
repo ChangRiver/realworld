@@ -20,7 +20,7 @@ To solve this problem, we created a series of production ready frontend & backen
 - Screencasts & other supplementary resources are available and support the ongoing development of ProductionReady, so please consider investing in [a Pro subscription](http://)!
 
 ## Hosted API
-We have a hosted version of the API that is publicly available and doesn't require an API key to use. It's **perfect for OSS demos**. [Learn more >](http://)
+We have a hosted version of the API that is publicly available and doesn't require an API key to use. It's **perfect for OSS demos**. [Learn more &rarr;](http://)
 
 
 ## Running stacks locally
