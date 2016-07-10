@@ -23,7 +23,7 @@ To solve this problem, we created a series of production ready frontend & backen
 
 The source code for all stacks is available in this repo in the stacks folder. Simply `git pull --with-submodules` and then follow the instructions in each stack's readme.
 
-## Using our publicly hosted API
+## Using our [publicly hosted API](http://)
 We have a hosted version of [the API](http://) that doesn't require an API key to use. It's **perfect for OSS demos**. [Learn more &rarr;](http://)
 
 ## Who made this?
