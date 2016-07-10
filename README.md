@@ -16,20 +16,11 @@ To solve this problem, we created a series of production ready frontend & backen
 
 - Every tutorial is built against the same [API spec](http://) to ensure modularity of every frontend & backend 
 - Every frontend utilizes the same hand crafted [Bootstrap 4 theme](http://) for identical UI/UX
-
-#### Tutorials
 - The [text of the tutorials](http://) are available to use **for free** on [Thinkster](http://)
 - Screencasts & other supplementary resources are available and support the ongoing development of ProductionReady, so please consider investing in [a Pro subscription](http://)!
 
-#### Hosted API
-We have a hosted version of the API that is publicly available - [learn more](http://)
-- Doesn't require an API key to use
-- Perfect for OSS demos
-
-
-#### Virtually everything is open source - [learn more](http://)
-- All code, unless otherwise noted, is licensed under MIT
-- We're planning on releasing the tutorial texts under a CC license soon
+## Hosted API
+We have a hosted version of the API that is publicly available and doesn't require an API key to use. It's **perfect for OSS demos**. [Learn more >](http://)
 
 
 ## Running stacks locally
@@ -41,3 +32,8 @@ The source code for all stacks is available in this repo in the stacks folder.
 Shoutout to todomvc / addy
 
 ## Getting involved
+
+
+## License
+- All code, unless otherwise noted, is licensed under MIT
+- We're planning on releasing the tutorial texts under a CC license soon
