@@ -16,7 +16,7 @@ To solve this problem, we created a series of production ready frontend & backen
 
 - Every tutorial is built against the same [API spec](http://) to ensure modularity of every frontend & backend 
 - Every frontend utilizes the same hand crafted [Bootstrap 4 theme](http://) for identical UI/UX
-- The [text of the tutorials](http://) are available to use **for free** on [Thinkster](http://)
+- The **[text of the tutorials](http://) are available for free** on [Thinkster](http://)
 - Screencasts & other supplementary resources are available and **support the ongoing development of ProductionReady**, so please consider investing in [a Pro subscription](http://) to supercharge your learning!
 
 ## Running the stacks locally
