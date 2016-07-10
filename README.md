@@ -14,15 +14,14 @@ To solve this problem, we created a series of production ready frontend & backen
 
 ## How this works
 
-Every tutorial is built against the same API spec and every frontend shares the same exact Bootstrap 4 templates.
+- Every tutorial is built against the same [API spec](http://) to ensure modularity of every frontend & backend 
+- Every frontend utilizes the same hand crafted [Bootstrap 4 theme](http://) for identical UI/UX
+- The text of the tutorials are available for free on Thinkster
 
-The source code for all stacks is available in this repo in the stacks folder. The text of the tutorials are available for free on Thinkster.
-
-- same api
-- same bootstrap design
-- pricing
 
 ## Running stacks locally
+
+The source code for all stacks is available in this repo in the stacks folder.
 
 ## Who made this?
 
