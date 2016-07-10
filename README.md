@@ -21,4 +21,6 @@ same bootstrap design
 
 ## Running stacks locally
 
+## Who made this?
+
 ## Contribute
