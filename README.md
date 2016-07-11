@@ -35,4 +35,6 @@ Shoutout to todomvc / addy
 
 
 ## License
-All of the codebases in the stacks folder are licensed under MIT unless otherwise specified. Docs in this repo are [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/) licensed.
+All of the codebases in the stacks folder are **MIT licensed** unless otherwise specified.
+
+Docs in this repo are [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/) licensed.
