@@ -35,6 +35,4 @@ Shoutout to todomvc / addy
 
 
 ## License
-Everything in this repo (including the codebases in the stacks folder) are licensed under MIT unless otherwise specified.
-
-MIT &copy; Thinkster
+All of the codebases in the stacks folder are licensed under MIT unless otherwise specified. Docs in this repo are [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/) licensed.
