@@ -31,7 +31,7 @@ We have a hosted version of [the API](http://) that doesn't require an API key t
 
 ProductionReady wouldn't be possible without the help of the open source community reviewing codebases, creating new app implementations, and many other tasks that help push this project forward. We especially appreciate the OSS leaders who have helped build the various stacks supported on ProductionReady, and we're [currently looking to provide funding to more OSS creators](http://) for their work.
 
-**In addition, the core creators are [Eric Simons](https://twitter.com/ericsimons40) and [Albert Pai](https://twitter.com/iamalbertpai)**, childhood best friends and cofounders of [Thinkster.io](https://thinkster.io). Thinkster funds this entire project, so please consider investing in [a Pro subscription](http://) to **support the ongoing development of ProductionReady**!
+**In addition, the core creators are [Eric Simons](https://twitter.com/ericsimons40) and [Albert Pai](https://twitter.com/iamalbertpai)** &mdash; childhood best friends and cofounders of [Thinkster.io](https://thinkster.io). Thinkster funds this entire project, so please consider investing in [a Pro subscription](http://) to **support the ongoing development of ProductionReady**!
 
 In particular, we'd like to thank a few folks who have been instrumental in guiding & inspiring this project:
 
