@@ -38,7 +38,7 @@ In particular, we'd like to thank a few folks who have been instrumental in guid
 - **Dan Abramov** (creator of Redux) for [sparking the initial idea](https://twitter.com/dan_abramov/status/692009757775896577), [helping us find an author](https://github.com/reactjs/redux/issues/1353) as well as graciously taking the time to provide feedback on [Val](https://github.com/vkarpov15/)'s React+Redux codebase
 - **Max Lynch** (creator of Ionic) for taking the time to provide guidance in the early days of this project
 - **Addy Osmani & the rest of the TodoMVC team**
-- James Brewer for countless brainstorming sessions, helping name this project, and writing the Django stack
+- **James Brewer** for countless brainstorming sessions, helping name this project, and creating the Django codebase + tutorial
 
 
 
