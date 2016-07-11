@@ -29,7 +29,17 @@ We have a hosted version of [the API](http://) that doesn't require an API key t
 
 ## Who made this?
 
-Shoutout to todomvc / addy
+ProductionReady wouldn't be possible without the help of the open source community reviewing codebases, creating new app implementations, and many other tasks that help push this project forward. We especially appreciate the OSS leaders who have helped build the various stacks supported on ProductionReady, and we're [currently looking to provide funding to more OSS creators](http://) for their work.
+
+In addition, the core creators are **[Eric Simons](https://twitter.com/ericsimons40) and [Albert Pai](https://twitter.com/iamalbertpai)**, childhood best friends and cofounders of [Thinkster.io](https://thinkster.io). Thinkster funds this entire project, so please consider investing in [a Pro subscription](http://) to **support the ongoing development of ProductionReady**!
+
+In particular, we'd like to thank a few folks who have been instrumental in guiding & inspiring this project:
+
+- **Dan Abramov** (creator of Redux) for [sparking the initial idea](https://twitter.com/dan_abramov/status/692009757775896577), [helping us find an author](https://github.com/reactjs/redux/issues/1353) as well as graciously taking the time to provide feedback on [Val](https://github.com/vkarpov15/)'s React+Redux codebase
+- **Max Lynch** (creator of Ionic) for taking the time to provide guidance in the early days of this project
+- **Addy Osmani & the rest of the TodoMVC team**
+
+
 
 ## Getting involved
 
