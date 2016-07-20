@@ -4,9 +4,11 @@
 
 ### [Website](http://)&nbsp;&nbsp;&nbsp;&nbsp;[Course](http://)&nbsp;&nbsp;&nbsp;&nbsp;[Mailing list](http://)
 
-Most tutorials only cover simple examples like "todo" apps and rarely show real world interactions between a frontend and a backend. Even if they do, they don't let you mix & match your ideal frontend and backend nor is the code they have you write appropriate for production environments. Piecing together your stack is just a painful, hairy process.
+Most tutorials only cover simple examples like "todo" apps and rarely show you how to build real world, production ready fullstack apps. They certainly don't cover actually deploying your applications into a production environment either. Worse yet, the only way developers can solve this right now is to piece together disparate tutorials from across the web that are completely disjointed and often incompatible with one another.
 
-To solve this problem, we created a series of production ready frontend & backend tutorials (with accompanying codebases) that can be mixed & matched. Every tutorial teaches you how to build Conduit [(demo)](https://demo.productionready.io), a fully featured social blogging platform, from scratch. The tutorials also teach you best practices & expert protips for each stack as well as how to deploy it to production environments on AWS, Heroku, and more.
+Suffice it to say, learning fullstack development is a painful, hairy process.
+
+To solve this problem, we worked with OSS community leaders to create a series of frontend, backend and deployment tutorials that can be mixed & matched (the backends all create the same API & the frontends use the same UI templates/styles). Every tutorial teaches you how to build Conduit [(demo)](https://demo.productionready.io), a beautifully designed and fully featured social blogging platform, from scratch. The tutorials also teach you best practices & expert protips for each stack as well as how to deploy it to production environments on AWS, Heroku, and more.
 
 #### [View supported stacks](http://) || [Start learning from the main course](http://)
 
