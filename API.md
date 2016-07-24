@@ -11,11 +11,11 @@
 ```
 {
   "user": {
-    "username": "jake",
-    "bio": "I work at statefarm",
-    "image": "https://i.stack.imgur.com/xHWG8.jpg",
     "email": "jake@jake.jake",
     "token": "jwt.token.here",
+    "username": "jake",
+    "bio": "I work at statefarm",
+    "image": "https://i.stack.imgur.com/xHWG8.jpg"
   }
 }
 ```
