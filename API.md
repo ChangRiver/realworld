@@ -15,7 +15,7 @@
     "token": "jwt.token.here",
     "username": "jake",
     "bio": "I work at statefarm",
-    "image": "https://i.stack.imgur.com/xHWG8.jpg"
+    "image": null
   }
 }
 ```
@@ -27,7 +27,7 @@
   "profile": {
     "username": "jake",
     "bio": "I work at statefarm",
-    "image": "https://i.stack.imgur.com/xHWG8.jpg",
+    "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
     "following": false
   }
 }
