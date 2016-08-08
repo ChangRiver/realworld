@@ -9,22 +9,35 @@ To solve this problem, we worked with OSS community leaders to create a series o
 **NOTE: Everything here is still a WIP -- PR's and issues welcome!**
 
 ## Supported stacks
+> These are continually kept up to date and we're always looking to add more -- PR's and issues welcome!
 
-- React / Redux - code complete
+- Frontend
+  - **React / Redux**
+    - [Github Repo](https://github.com/GoThinkster/redux-review)
+  - **Angular**
+    - [Github Repo](https://github.com/gothinkster/productionready-angularjs-client)
+    - [Tutorial](https://thinkster.io/angularjs-es6-tutorial)
+- Backend
+  - **Node**
+    - [Github Repo](https://github.com/gothinkster/productionready-node-api)
+  - **Django**
+    - [Github Repo](https://github.com/gothinkster/productionready-django-api)
+  - **Rails**
+    - [Github Repo](https://github.com/gothinkster/productionready-rails4-api)
 
 ## How this works
 
 - Every tutorial is built against the same [API spec](API.md) to ensure modularity of every frontend & backend 
 - Every frontend utilizes the same hand crafted Bootstrap 4 theme for identical UI/UX
-- There is a hosted version of the backend API that the frontends can integrate with instead of running a backend stack locally
+- There is a hosted version of the backend API available for public usage, no API keys required
 
 
 ## Who made this?
 
-ProductionReady wouldn't be possible without the help of the open source community reviewing codebases, creating new app implementations, and many other tasks that help push this project forward. We especially appreciate the OSS leaders who have helped build ProductionReady:
+ProductionReady wouldn't be possible without the help of the open source community reviewing codebases, creating new app implementations, and many other tasks that help push this project forward. We especially appreciate the OSS leaders who have helped contribute to ProductionReady:
 
-- **Val Karpov** (core contributor of Mongoose) created the React/Redux codebase and authored the accompanying tutorial
-- **Dan Abramov** (creator of Redux) for [sparking the initial idea](https://twitter.com/dan_abramov/status/692009757775896577), [helping gain support](https://github.com/reactjs/redux/issues/1353) as well as graciously taking the time to provide advise [Val](https://github.com/vkarpov15/)'s React/Redux codebase
+- **Val Karpov** (core contributor of Mongoose) created the React/Redux codebase and authored its accompanying tutorial
+- **Dan Abramov** (creator of Redux) for [sparking the initial idea](https://twitter.com/dan_abramov/status/692009757775896577), [getting the Redux community involved](https://github.com/reactjs/redux/issues/1353), as well as graciously taking the time to provide feedback on the Redux codebase
 - **James Brewer** (docs contributor to Django) for countless brainstorming sessions, helping name this project, and creating the Django codebase + tutorial
 - **Max Lynch** (creator of Ionic) for taking the time to provide guidance in the early days of this project
 
