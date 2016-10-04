@@ -1,6 +1,6 @@
 # ![ProductionReady](media/realworld.png)
 
-> Real world fullstack examples for React / Redux, Angular, Node, Rails, Django, and more
+> Fullstack example codebases for React, Angular 2, AngularJS, Node, Rails, Django, and more
 
 Most examples and tutorials only cover simple examples like "todo" apps and rarely show you how to build real world, production ready fullstack apps. They certainly don't cover actually deploying your applications into a production environment either.
 
