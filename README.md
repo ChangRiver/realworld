@@ -1,4 +1,4 @@
-# ![ProductionReady](media/logo_lg.png)
+# ![ProductionReady](media/realworld.png)
 
 > Real world fullstack examples for React / Redux, Angular, Node, Rails, Django, and more
 
