@@ -16,7 +16,7 @@ To solve this problem, we worked with OSS community leaders to create a series o
     - [Github Repo](https://github.com/GoThinkster/realworld-angular2-example-app)
   - **React / Redux**
     - [Github Repo](https://github.com/GoThinkster/realworld-react-redux-example-app)
-  - **Angular**
+  - **Angular 1.5+ (ES6)**
     - [Github Repo](https://github.com/gothinkster/productionready-angularjs-client)
     - [Tutorial](https://thinkster.io/angularjs-es6-tutorial)
 - Backend
