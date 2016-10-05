@@ -1,4 +1,4 @@
-# ![ProductionReady](media/realworld.png)
+# ![RealWorld Example Applications](media/realworld.png)
 
 > Fullstack example codebases for React, Angular 2, AngularJS, Node, Rails, Django, and more
 
