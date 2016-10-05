@@ -12,18 +12,20 @@ To solve this problem, we worked with OSS community leaders to create a series o
 > These are continually kept up to date and we're always looking to add more -- PR's and issues welcome!
 
 - Frontend
+  - **Angular 2**
+    - [Github Repo](https://github.com/GoThinkster/realworld-angular2-example-app)
   - **React / Redux**
-    - [Github Repo](https://github.com/GoThinkster/redux-review)
+    - [Github Repo](https://github.com/GoThinkster/realworld-react-redux-example-app)
   - **Angular**
     - [Github Repo](https://github.com/gothinkster/productionready-angularjs-client)
     - [Tutorial](https://thinkster.io/angularjs-es6-tutorial)
 - Backend
   - **Node**
-    - [Github Repo](https://github.com/gothinkster/productionready-node-api)
+    - [Github Repo](https://github.com/gothinkster/realworld-node-express-example-app)
   - **Django**
-    - [Github Repo](https://github.com/gothinkster/productionready-django-api)
+    - [Github Repo](https://github.com/gothinkster/realworld-django-example-app)
   - **Rails**
-    - [Github Repo](https://github.com/gothinkster/productionready-rails4-api)
+    - [Github Repo](https://github.com/gothinkster/realworld-rails-example-app)
 
 ## How this works
 
