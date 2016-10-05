@@ -13,19 +13,19 @@ To solve this problem, we worked with OSS community leaders to create a series o
 
 - Frontend
   - **Angular 2**
-    - [Github Repo](https://github.com/GoThinkster/realworld-angular2-example-app)
+    - [Github Repo](https://github.com/GoThinkster/angular2-realworld-example-app)
   - **React / Redux**
-    - [Github Repo](https://github.com/GoThinkster/realworld-react-redux-example-app)
+    - [Github Repo](https://github.com/GoThinkster/react-redux-realworld-example-app)
   - **Angular 1.5+ (ES6 & Components)**
     - [Github Repo](https://github.com/gothinkster/productionready-angularjs-client)
     - [Tutorial](https://thinkster.io/angularjs-es6-tutorial)
 - Backend
   - **Node**
-    - [Github Repo](https://github.com/gothinkster/realworld-node-express-example-app)
+    - [Github Repo](https://github.com/gothinkster/node-express-realworld-example-app)
   - **Django**
-    - [Github Repo](https://github.com/gothinkster/realworld-django-example-app)
+    - [Github Repo](https://github.com/gothinkster/django-realworld-example-app)
   - **Rails**
-    - [Github Repo](https://github.com/gothinkster/realworld-rails-example-app)
+    - [Github Repo](https://github.com/gothinkster/rails-realworld-example-app)
 
 ## How this works
 
